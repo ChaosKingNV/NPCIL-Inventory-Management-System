@@ -12,3 +12,9 @@ Consumables::~Consumables()
 {
     delete ui;
 }
+
+void Consumables::on_pushButtonCAdd_clicked()
+{
+
+}
+

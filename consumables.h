@@ -15,6 +15,9 @@ public:
     explicit Consumables(QWidget *parent = nullptr);
     ~Consumables();
 
+private slots:
+    void on_pushButtonCAdd_clicked();
+
 private:
     Ui::Consumables *ui;
 };
