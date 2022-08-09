@@ -43,7 +43,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Update Consumables</string>
+        <string>Find Consumables</string>
        </property>
       </widget>
      </item>

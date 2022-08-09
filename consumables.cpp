@@ -3,6 +3,7 @@
 #include "cadd.h"
 #include "cupdate.h"
 #include "cfind.h"
+#include "cremove.h"
 
 Consumables::Consumables(QWidget *parent) :
     QDialog(parent),
@@ -42,7 +43,9 @@ void Consumables::on_pushButtonCFind_clicked()
 
 void Consumables::on_pushButtonCRemove_clicked()
 {
+    CRemove *cremove = new CRemove(this);
 
+    cremove->exec();
 }
 
 

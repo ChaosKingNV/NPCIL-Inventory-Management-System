@@ -14,6 +14,7 @@ CUpdate::~CUpdate()
 {
     delete ui;
 }
+
 void CUpdate::on_findButton_clicked()
 {
     qDebug() << "in CUpdate::on_findButton_clickec()";
@@ -35,6 +36,7 @@ void CUpdate::on_findButton_clicked()
 
     while(query.next())
     {
+       qDebug() << "Show";
        flag = 1;
        ui->Name->setText(query.value(0).toString());
        ui->Quantity->setText(query.value(1).toString());
@@ -88,6 +90,7 @@ void CUpdate::showAllElements()
     ui->Storage->show();ui->label_5->show();
     ui->Comment->show();ui->label_6->show();
     ui->updateButton->show();
+    qDebug() << "Show";
 }
 
 void CUpdate::hideAllElements()
@@ -98,4 +101,5 @@ void CUpdate::hideAllElements()
     ui->Storage->hide();ui->label_5->hide();
     ui->Comment->hide();ui->label_6->hide();
     ui->updateButton->hide();
+     qDebug() << "Hide";
 }
