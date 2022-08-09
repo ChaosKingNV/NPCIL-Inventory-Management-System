@@ -2,6 +2,7 @@
 #include "ui_consumables.h"
 #include "cadd.h"
 #include "cupdate.h"
+#include "cfind.h"
 
 Consumables::Consumables(QWidget *parent) :
     QDialog(parent),
@@ -33,7 +34,9 @@ void Consumables::on_pushButtonCUpdate_clicked()
 
 void Consumables::on_pushButtonCFind_clicked()
 {
+    CFind *cfind = new CFind(this);
 
+    cfind->exec();
 }
 
 

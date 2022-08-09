@@ -2,6 +2,7 @@
 #define CFIND_H
 
 #include <QDialog>
+#include "MyDB.h"
 
 namespace Ui {
 class CFind;
@@ -15,8 +16,13 @@ public:
     explicit CFind(QWidget *parent = nullptr);
     ~CFind();
 
+private slots:
+    void on_findButton_clicked();
+
 private:
     Ui::CFind *ui;
+    void showAllElements();
+    void hideAllElements();
 };
 
 #endif // CFIND_H
