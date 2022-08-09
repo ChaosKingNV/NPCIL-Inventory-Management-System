@@ -1,6 +1,7 @@
 #include "consumables.h"
 #include "ui_consumables.h"
 #include "cadd.h"
+#include "cupdate.h"
 
 Consumables::Consumables(QWidget *parent) :
     QDialog(parent),
@@ -24,7 +25,9 @@ void Consumables::on_pushButtonCAdd_clicked()
 
 void Consumables::on_pushButtonCUpdate_clicked()
 {
+    CUpdate *cupdate = new CUpdate(this);
 
+    cupdate->exec();
 }
 
 
