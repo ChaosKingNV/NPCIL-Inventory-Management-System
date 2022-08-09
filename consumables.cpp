@@ -4,6 +4,7 @@
 #include "cupdate.h"
 #include "cfind.h"
 #include "cremove.h"
+#include "creport.h"
 
 Consumables::Consumables(QWidget *parent) :
     QDialog(parent),
@@ -51,6 +52,8 @@ void Consumables::on_pushButtonCRemove_clicked()
 
 void Consumables::on_pushButtonCReport_clicked()
 {
+    CReport *creport = new CReport(this);
 
+    creport->exec();
 }
 

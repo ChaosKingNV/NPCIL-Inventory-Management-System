@@ -2,6 +2,7 @@
 #define CREPORT_H
 
 #include <QDialog>
+#include "MyDB.h"
 
 namespace Ui {
 class CReport;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::CReport *ui;
+    void updateUI();
 };
 
 #endif // CREPORT_H
