@@ -15,6 +15,9 @@ public:
     explicit Tools(QWidget *parent = nullptr);
     ~Tools();
 
+private slots:
+    void on_pushButtonTAdd_clicked();
+
 private:
     Ui::Tools *ui;
 };

@@ -12,3 +12,9 @@ Tools::~Tools()
 {
     delete ui;
 }
+
+void Tools::on_pushButtonTAdd_clicked()
+{
+
+}
+

@@ -18,6 +18,14 @@ public:
 private slots:
     void on_pushButtonCAdd_clicked();
 
+    void on_pushButtonCUpdate_clicked();
+
+    void on_pushButtonCFind_clicked();
+
+    void on_pushButtonCRemove_clicked();
+
+    void on_pushButtonCReport_clicked();
+
 private:
     Ui::Consumables *ui;
 };
