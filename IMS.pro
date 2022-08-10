@@ -17,7 +17,6 @@ SOURCES += \
     cupdate.cpp \
     main.cpp \
     mainwindow.cpp \
-    miscellaneous.cpp \
     mydb.cpp \
     tadd.cpp \
     tfind.cpp \
@@ -34,7 +33,6 @@ HEADERS += \
     creport.h \
     cupdate.h \
     mainwindow.h \
-    miscellaneous.h \
     mydb.h \
     tadd.h \
     tfind.h \
@@ -51,7 +49,6 @@ FORMS += \
     creport.ui \
     cupdate.ui \
     mainwindow.ui \
-    miscellaneous.ui \
     tadd.ui \
     tfind.ui \
     tools.ui \

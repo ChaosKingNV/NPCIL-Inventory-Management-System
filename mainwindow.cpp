@@ -2,7 +2,6 @@
 #include "ui_mainwindow.h"
 #include "consumables.h"
 #include "tools.h"
-#include "miscellaneous.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -32,13 +31,5 @@ void MainWindow::on_pushButtonTools_clicked()
     Tools *tools = new Tools(this);
 
     tools->exec();
-}
-
-
-void MainWindow::on_pushButtonMiscellaneous_clicked()
-{
-    Miscellaneous *miscellaneous = new Miscellaneous(this);
-
-    miscellaneous->exec();
 }
 

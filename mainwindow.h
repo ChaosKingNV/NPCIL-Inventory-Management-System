@@ -22,8 +22,6 @@ private slots:
 
     void on_pushButtonTools_clicked();
 
-    void on_pushButtonMiscellaneous_clicked();
-
 private:
     Ui::MainWindow *ui;
 };
