@@ -1,6 +1,5 @@
 #ifndef MYDB_H
 #define MYDB_H
-#include <QDebug>
 
 #include <QSqlDatabase>
 #include <QSqlQuery>
