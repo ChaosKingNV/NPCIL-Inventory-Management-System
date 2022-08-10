@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Consumables</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -39,7 +39,6 @@
        </property>
        <property name="font">
         <font>
-         <family>Arial</family>
          <pointsize>18</pointsize>
          <underline>true</underline>
         </font>
@@ -113,7 +112,6 @@
          </property>
          <property name="font">
           <font>
-           <family>Cascadia Mono PL</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -138,7 +136,6 @@
          </property>
          <property name="font">
           <font>
-           <family>Cascadia Mono PL</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -163,7 +160,6 @@
          </property>
          <property name="font">
           <font>
-           <family>Cascadia Mono PL</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -188,7 +184,6 @@
          </property>
          <property name="font">
           <font>
-           <family>Cascadia Mono PL</family>
            <pointsize>12</pointsize>
           </font>
          </property>

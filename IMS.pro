@@ -19,7 +19,12 @@ SOURCES += \
     mainwindow.cpp \
     miscellaneous.cpp \
     mydb.cpp \
-    tools.cpp
+    tadd.cpp \
+    tfind.cpp \
+    tools.cpp \
+    tremove.cpp \
+    treport.cpp \
+    tupdate.cpp
 
 HEADERS += \
     cadd.h \
@@ -31,7 +36,12 @@ HEADERS += \
     mainwindow.h \
     miscellaneous.h \
     mydb.h \
-    tools.h
+    tadd.h \
+    tfind.h \
+    tools.h \
+    tremove.h \
+    treport.h \
+    tupdate.h
 
 FORMS += \
     cadd.ui \
@@ -42,7 +52,12 @@ FORMS += \
     cupdate.ui \
     mainwindow.ui \
     miscellaneous.ui \
-    tools.ui
+    tadd.ui \
+    tfind.ui \
+    tools.ui \
+    tremove.ui \
+    treport.ui \
+    tupdate.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

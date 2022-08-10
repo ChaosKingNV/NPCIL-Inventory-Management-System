@@ -18,6 +18,14 @@ public:
 private slots:
     void on_pushButtonTAdd_clicked();
 
+    void on_pushButtonTUpdate_clicked();
+
+    void on_pushButtonTFind_clicked();
+
+    void on_pushButtonTRemove_clicked();
+
+    void on_pushButtonTReport_clicked();
+
 private:
     Ui::Tools *ui;
 };
