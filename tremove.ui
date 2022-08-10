@@ -90,7 +90,7 @@
           <string>ID</string>
          </property>
          <property name="buddy">
-          <cstring>id</cstring>
+          <cstring>id_2</cstring>
          </property>
         </widget>
        </item>
@@ -115,7 +115,7 @@
           <string>Name</string>
          </property>
          <property name="buddy">
-          <cstring>Name</cstring>
+          <cstring>Name_2</cstring>
          </property>
         </widget>
        </item>
@@ -137,7 +137,7 @@
           <string>Quantity</string>
          </property>
          <property name="buddy">
-          <cstring>Quantity</cstring>
+          <cstring>Quantity_2</cstring>
          </property>
         </widget>
        </item>
@@ -155,7 +155,7 @@
           <string>Date Of Entry</string>
          </property>
          <property name="buddy">
-          <cstring>Date</cstring>
+          <cstring>Date_2</cstring>
          </property>
         </widget>
        </item>
@@ -173,7 +173,7 @@
           <string>Storage Location</string>
          </property>
          <property name="buddy">
-          <cstring>Storage</cstring>
+          <cstring>Storage_2</cstring>
          </property>
         </widget>
        </item>
@@ -190,6 +190,9 @@
          <property name="text">
           <string>Comments</string>
          </property>
+         <property name="buddy">
+          <cstring>Comment_2</cstring>
+         </property>
         </widget>
        </item>
        <item row="7" column="1">
@@ -204,6 +207,9 @@
          </property>
          <property name="text">
           <string>Status</string>
+         </property>
+         <property name="buddy">
+          <cstring>Status</cstring>
          </property>
         </widget>
        </item>
