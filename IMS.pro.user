@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-08-10T09:06:55. -->
+<!-- Written by QtCreator 6.0.2, 2022-08-10T09:31:42. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -579,7 +579,6 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/Acer/Desktop/Programming/Projects/Internships/NPCIL(Inventory Managemenet System Using QT)/build-IMS-Desktop_Qt_5_15_2_MinGW_32_bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

@@ -65,3 +65,5 @@ RESOURCES += \
     my_resources.qrc
 
 RC_ICONS = npcil.ico
+
+DISTFILES +=

@@ -58,6 +58,13 @@
      </spacer>
     </item>
     <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="2">
        <spacer name="horizontalSpacer">
