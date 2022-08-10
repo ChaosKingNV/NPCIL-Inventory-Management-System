@@ -2,6 +2,7 @@
 #define TADD_H
 
 #include <QDialog>
+#include "MyDB.h"
 
 namespace Ui {
 class TAdd;
@@ -14,6 +15,11 @@ class TAdd : public QDialog
 public:
     explicit TAdd(QWidget *parent = nullptr);
     ~TAdd();
+
+private slots:
+    void on_add_clicked();
+
+    void on_reset_clicked();
 
 private:
     Ui::TAdd *ui;
