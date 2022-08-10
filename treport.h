@@ -2,6 +2,7 @@
 #define TREPORT_H
 
 #include <QDialog>
+#include "MyDB.h"
 
 namespace Ui {
 class TReport;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::TReport *ui;
+    void updateUI();
 };
 
 #endif // TREPORT_H
