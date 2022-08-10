@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>npcil.ico</file>
+    </qresource>
+</RCC>
