@@ -2,6 +2,13 @@
 #define TOOLS_H
 
 #include <QDialog>
+#include <QtCharts/QChartView>
+#include <QtCharts/QBarSeries>
+#include <QtCharts/QBarSet>
+#include <QtCharts/QLegend>
+#include <QtCharts/QBarCategoryAxis>
+#include <QtCharts/QValueAxis>
+
 
 namespace Ui {
 class Tools;
@@ -28,6 +35,11 @@ private slots:
 
 private:
     Ui::Tools *ui;
+    void graphInit();
+
+    int getOutOfOrderToolCount();
+    int getAvailableToolCount();
+    int getInUseToolCount();
 };
 
 #endif // TOOLS_H

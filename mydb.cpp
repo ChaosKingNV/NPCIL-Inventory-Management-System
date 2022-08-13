@@ -10,9 +10,9 @@ void MyDB::init()
 {
     qDebug() << "in init()";
     db = QSqlDatabase::addDatabase("QSQLITE", "Data");
-    db.setDatabaseName("C:/IMS.sqlite");
+    db.setDatabaseName("C:/Users/Acer/Desktop/Programming/Projects/Internships/NPCIL(Inventory Managemenet System Using QT)/IMS/IMS.sqlite");
 
-    if(QFile::exists("C:/IMS.sqlite"))
+    if(QFile::exists("C:/Users/Acer/Desktop/Programming/Projects/Internships/NPCIL(Inventory Managemenet System Using QT)/IMS/IMS.sqlite"))
             qDebug() << "DB file exist";
         else
            qDebug() << "DB file doesn't exists";
