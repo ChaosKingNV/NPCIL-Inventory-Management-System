@@ -67,10 +67,7 @@ To create an executable file
 
 ## Screenshots
 
-
-![1](https://user-images.githubusercontent.com/57983605/184473947-c6af1be7-d6e7-4c42-9309-e301e4899b61.png)
-![2](https://user-images.githubusercontent.com/57983605/184473949-b49d087b-db4c-4a2c-a9c2-f267ec893951.PNG)
-![3](https://user-images.githubusercontent.com/57983605/184473950-56964793-0716-46d8-94c7-244f83eb54bf.jpg)
+<img src="https://user-images.githubusercontent.com/57983605/184473947-c6af1be7-d6e7-4c42-9309-e301e4899b61.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/57983605/184473949-b49d087b-db4c-4a2c-a9c2-f267ec893951.PNG" width="30%"></img> <img src="https://user-images.githubusercontent.com/57983605/184473950-56964793-0716-46d8-94c7-244f83eb54bf.jpg" width="30%"></img> 
 
 
 ## Used By
