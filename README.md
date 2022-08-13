@@ -1,7 +1,7 @@
 
 # IMS
 
-IMS is an Inventory Management System created by me for Nuclear Power corporation of India Ltd (NPCIL), Rajasthan Atomic Power Station (RAPP) site as my summer training project.  
+IMS is an Inventory Management System created by me for the Nuclear Power Corporation of India Ltd (NPCIL), Rajasthan Atomic Power Station (RAPP) site as my summer training project.
 
 The project is bulit by using Qt/XML for frontend, C++ as backend and SQLite 3 for database. The code is modular and can be easily modified for application in other organisations as well.   
 
